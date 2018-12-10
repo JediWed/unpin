@@ -5,6 +5,13 @@
 ## Build generated
 build/
 DerivedData/
+Debug/
+Podfile.lock
+unpin.xcodeproj/
+unpin.xcworkspace/
+
+
+
 
 ## Various settings
 *.pbxuser

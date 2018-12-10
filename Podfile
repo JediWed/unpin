@@ -1,4 +1,3 @@
-plugin 'cocoapods-amimono'
 platform :osx, '10.14'
 
 target 'unpin' do
