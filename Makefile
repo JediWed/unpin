@@ -11,6 +11,7 @@ update_config:
 clean:
 	rm -rf bin .build $(APP).xcodeproj Package.pins
 build: clean create_config update_config
-	$(CONSTRUCT) archive -archivePath bin/$(APP)
-	cp bin/$(APP).xcarchive/Products/usr/local/bin/$(APP) bin/
-	rm -rf bin/unpin.xcarchive
+	$(CONSTRUCT) build -configuration Release -derivedDataPath bin
+	cp -R bin/Build/Products/Release/*.framework bin/
+	cp bin/Build/Products/Release/unpin bin/
+	rm -rf bin/Build bin/Logs bin/ModuleCache.noindex bin/info.plist
