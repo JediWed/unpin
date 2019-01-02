@@ -2,7 +2,6 @@ import Foundation
 import CommandLineKit
 import Rainbow
 import Alamofire
-import Alamofire_Synchronous
 
 let cli = CommandLineKit.CommandLine()
 
