@@ -18,7 +18,7 @@ You can find binary and libraries at *bin/unpin*.
 
 |Option|Possible Value|Explanation|
 |:----:|:------------:|:----------|
-|-u, --url|http or https URL with PIN placeholder. e.g. https://myapi.tld/checkPIN/{pin}|Specify REST address for GET request with placeholder where the PIN should be placed.|
+|-u, --url|URL|Specify REST address for GET request with placeholder where the PIN should be placed. e.g. https://myapi.tld/checkPIN/{pin}|
 |-a, --algorithm|bottomUp, topDown, insideOut|*bottomUp* starts at lower bound and goes to upper bound. *topDown* starts at upper bound and goes to lower bound. *insieOut* starts in the middle of lower and upper bound and goes alternating and iterative to both bounds.|
 |-l, --lowerBound|positive integer|Lowest number which PIN could be. e.g. 0|
 |-p, --upperBound|positive integer|Highest number which PIN could be. e.g. 9999|
