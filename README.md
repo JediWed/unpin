@@ -19,7 +19,7 @@ You can find binary and libraries at *bin/unpin*.
 |Option|Possible Value|Default Value|Explanation|
 |:----:|:------------:|:-----------:|:----------|
 |-u, --url|URL| |Specify REST address for GET request with placeholder where the PIN should be placed. e.g. https://myapi.tld/checkPIN/{pin}|
-|-a, --algorithm|bottomUp, topDown, insideOut| insideOut |*bottomUp* starts at lower bound and goes to upper bound. *topDown* starts at upper bound and goes to lower bound. *insieOut* starts in the middle of lower and upper bound and goes alternating and iterative to both bounds.|
+|-a, --algorithm|bottomUp, topDown, insideOut| insideOut |*bottomUp* starts at lower bound and goes to upper bound. *topDown* starts at upper bound and goes to lower bound. *insideOut* starts in the middle of lower and upper bound and goes alternating and iterative to both bounds.|
 |-l, --lowerBound|positive integer|0|Lowest number which PIN could be. e.g. 0|
 |-p, --upperBound|positive integer|9999|Highest number which PIN could be. e.g. 9999|
 |-s, --statusDesc|string|status|Status descriptor of JSON return which defines if commited PIN was correct. If return value is *"success" = false* your status descriptor is "success". If return value is *"status" = "failed"* your status descriptor is "status".|
