@@ -1,4 +1,7 @@
 # unpin
+|Build|License|
+|:---:|:-----:|
+|[![Build Status](https://travis-ci.org/JediWed/unpin.svg?branch=master)](https://travis-ci.org/JediWed/unpin)| [![GitHub license](https://img.shields.io/github/license/JediWed/unpin.svg)](https://github.com/JediWed/unpin/blob/master/LICENSE) |
 
 PIN bruteforce over GET Requests
 
